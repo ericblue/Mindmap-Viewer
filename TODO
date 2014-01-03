@@ -1,0 +1,24 @@
+#
+# $Id: TODO.txt,v 1.2 2007-12-19 21:47:00 dev Exp $
+# TODO list/developer notes for MindMap Viewer 
+#
+
+STYLESHEETS / TRANSFORMATION
+	* Follow-up with developer at mind-mappping.org for his work on stylesheets
+	* Incorporate Styesheets from project on Koders (CPBLOGCLIENT)
+		http://www.koders.com/info.aspx?c=ProjectInfo&pid=ERL47M7A4P3AK6DDHE3ZA7XZHG
+		o OPML
+		O HTML
+	* Explore RDF, TOPICMAPS, TURTLE
+
+PLUGIN
+
+	* Fix alignment of icon in Windows
+	* Long-term
+		o Write full Java plugin using Simile and have self-contained plugin	
+			- No need for server
+			- Conversion done on the fly, and works with Intranet/local files
+
+COMPATIBILITY
+	* Concept Draw
+	* Review Chuck's MindMap survey to see most popular software to prioritize compatibility

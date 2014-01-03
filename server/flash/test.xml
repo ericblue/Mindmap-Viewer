@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns:ap="http://schemas.mindjet.com/MindManager/Application/2003" xmlns:cor="http://schemas.mindjet.com/MindManager/Core/2003" xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="0.8.0">
+  <node TEXT="Consciousness" POSITION="left">
+    <node TEXT="Key Points" POSITION="right">
+      <node TEXT="Types" POSITION="left">
+        <node TEXT="Simple" POSITION="left">
+          <node TEXT="Current awareness" POSITION="left"/>
+          <node TEXT="Sensations" POSITION="left"/>
+          <node TEXT="Basic sensory experiences" POSITION="left"/>
+          <node TEXT="Problem" POSITION="left">
+            <node TEXT="How can I be aware of things?" POSITION="left"/>
+          </node>
+        </node>
+        <node TEXT="Self" POSITION="left">
+          <node TEXT="Reflective consciousness" POSITION="left"/>
+          <node TEXT="Aware of my own consciousness" POSITION="left">
+            <node TEXT="Awareness of awareness" POSITION="left"/>
+          </node>
+          <node TEXT="Says &quot;I am....&quot;" POSITION="left"/>
+        </node>
+      </node>
+      <node TEXT="Characteristics" POSITION="left">
+        <node TEXT="Subjective" POSITION="left">
+          <node TEXT="&quot;Subjectivity of sensations&quot;" POSITION="left">
+            <node TEXT="Possesed by a subject" POSITION="left"/>
+            <node TEXT="How it feels" POSITION="left"/>
+          </node>
+        </node>
+        <node TEXT="Intentionality" POSITION="left">
+          <node TEXT="Intentionality of consciousness" POSITION="left">
+            <node TEXT="Brentano - 19th century" POSITION="left"/>
+            <node TEXT="All Mental states are about things" POSITION="left">
+              <node TEXT="objects" POSITION="left"/>
+              <node TEXT="subjects" POSITION="left">
+                <node TEXT="emotions" POSITION="left"/>
+              </node>
+            </node>
+            <node TEXT="Mind is an intentional system" POSITION="left">
+              <node TEXT="points beyond itself" POSITION="left"/>
+              <node TEXT="reference" POSITION="left"/>
+              <node TEXT="meaning" POSITION="left"/>
+              <node TEXT="content" POSITION="left"/>
+            </node>
+          </node>
+        </node>
+        <node TEXT="Transparency" POSITION="left">
+          <node TEXT="No inference" POSITION="left"/>
+          <node TEXT="Know directly what the state of consciousness is" POSITION="left"/>
+          <node TEXT="Infallible about own states of mind" POSITION="left"/>
+        </node>
+      </node>
+      <node TEXT="Explanatory Gap" POSITION="right">
+        <node TEXT="Gap between brain and mind" POSITION="left"/>
+        <node TEXT="Doubt of what is going on in the brain fully explains consciousness" POSITION="left"/>
+        <node TEXT="Cartesian dualism is not the answer" POSITION="left">
+          <node TEXT="Immateriality does not make something subjective" POSITION="left"/>
+          <node TEXT="&quot;Soul-stuff&quot; can't explain consciousness, intentionality" POSITION="left"/>
+        </node>
+      </node>
+      <node TEXT="Consciousness is a mystery" POSITION="left">
+        <node TEXT="Ontologically peculiar entity" POSITION="left">
+          <node TEXT="non-physical" POSITION="left"/>
+          <node TEXT="supernatural - akin to &quot;God&quot;" POSITION="left"/>
+        </node>
+        <node TEXT="Brains are not yet advanced enough" POSITION="left">
+          <node TEXT="Animals can't understand theory of relativity" POSITION="left"/>
+        </node>
+        <node TEXT="Reality is not the same as intelligibility" POSITION="left"/>
+      </node>
+      <node TEXT="Materialism" POSITION="left">
+        <node TEXT="Consciousness is reduceable to the brain" POSITION="left"/>
+        <node TEXT="Can materialism define characteristics?" POSITION="left">
+          <node TEXT="subjectivity" POSITION="left">
+            <node TEXT="biochemical activities" POSITION="left"/>
+            <node TEXT="knowledge of brain doesn't give knowledge of state" POSITION="left"/>
+          </node>
+          <node TEXT="intentionality" POSITION="left"/>
+          <node TEXT="transparency" POSITION="left">
+            <node TEXT="brain states are not transparent" POSITION="left"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node TEXT="Definitions" POSITION="right">
+      <node TEXT="Mysterianism" POSITION="left" LINK="http://pedia.newsfilter.co.uk/wikipedia/n/ne/new_mysterianism.html">
+        <hook NAME="accessories/plugins/NodeNote.properties">
+          <text>Human intellect is incapable of understanding consciousness</text>
+        </hook>
+      </node>
+      <node TEXT="Phenomenology" POSITION="left">
+        <hook NAME="accessories/plugins/NodeNote.properties">
+          <text>Study of consciousness from a first-person point of view</text>
+        </hook>
+      </node>
+    </node>
+    <node TEXT="Websites" POSITION="left">
+      <node TEXT="Dictionary of Philosophy of the Mind" POSITION="left" LINK="http://www.artsci.wustl.edu/~philos/MindDict/"/>
+      <node TEXT="Pratt School of Architecture" POSITION="left" LINK="http://pratt.edu/~arch543p/"/>
+    </node>
+    <node TEXT="Suggested Reading" POSITION="left">
+      <node TEXT="Sein und Zeit (Being and Time)" POSITION="left">
+        <node TEXT="Heidegger, Martin" POSITION="left"/>
+      </node>
+      <node TEXT="The Making of a Philosopher" POSITION="left">
+        <node TEXT="McGinn, Colin" POSITION="left"/>
+      </node>
+      <node TEXT="The Mysterious Flame" POSITION="left">
+        <node TEXT="McGinn, Colin" POSITION="left"/>
+      </node>
+      <node TEXT="Phenomenology Reader" POSITION="left">
+        <node TEXT="Moran, Dermot" POSITION="left"/>
+      </node>
+    </node>
+  </node>
+</map>

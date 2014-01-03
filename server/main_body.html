@@ -1,0 +1,77 @@
+
+        <div id="main">
+          <h3>ABOUT</h3>
+<p>This application/service will allow users to take a variety of mind map formats, and display the maps inside a browser using a Java applet or Flash 
+viewer. This means that maps can now be embedded directly into personal sites, wikis, or blogs using simple Javascript and iframes, and no need for 
+your audience to have your specific mind mapping software in order to view your map! 
+<br><br>
+          The application essentially does the following:</p>
+
+          <p>* Downloads the mindmap at the provided URL (previously converted maps will be cached)<br />
+          * Extract/convert the .mmap file to XML<br />
+          * Translate to the FreeMind .mm format using XSL<br />
+          * Embed or launch using the FreeMind Java Applet or Flash
+          Viewer<br /></p>
+
+
+          <h3>GIVE IT A TRY</h3>
+
+          <p>For the initial release, <a href="http://www.mindjet.com/us/">MindManager from Mindjet</a> is the only supported format (v5-v7).
+          Enter a valid Mindjet MindMap (.mmap) URL (e.g.
+          http://sample.org/mymap.mmap).  If you want to share your map, click <a href="share.html">here</a>.</p>
+
+          <form name="defaultform" target="newwindow" method="post" action="display.cgi">
+            <table>
+              <tr>
+                <td>Mindmap URL:</td>
+
+                <td><input type="text" size="40" name=
+                "mmap_url" /></td>
+              </tr>
+
+              <tr>
+                <td>Format:</td>
+
+                <td>
+                <input type="radio" class="other" name="format" id=
+                "format2" checked="true" value="flash" /> <label class=
+                "left">Flash</label> &nbsp; <input type="radio" class=
+                "other" name="format" id="format1" value="java" />
+                <label class="left">Java</label><br /></td>
+              </tr>
+
+              <tr>
+                <td>Target:</td>
+
+                <td>
+                <input type="radio" class="other" name="target" id=
+                "target2" value="embed" checked="true" onclick=
+                "setTarget('embeddisp')" />
+                <label class="left">Embedded</label> &nbsp;<input type="radio" class=
+                "other" name="target" id="target1" value=
+                "New Window" onclick=
+                "setTarget('newwindow');" />
+                <label class="left">New Window</label><br /></td>
+              </tr>
+
+              <tr>
+                <td><input value="View Map" type="button" onClick="submitForm();" /></td>
+
+                <td>&nbsp;</td>
+              </tr>
+            </table>
+          </form>
+
+          <div id="emb">
+            <b>Embedded Preview</b> <iframe id="embeddisp" name=
+            "embeddisp" width="500" height="400"></iframe>
+          </div>
+
+          <p style="margin-top:400px">&nbsp;</p>
+        </div><!-- content-wrap ends here -->
+      </div>
+
+      <div style="padding:20px">
+        &nbsp;
+      </div><!-- footer starts here -->
+

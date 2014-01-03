@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://mindmapviewer/skin/mindmapviewer.css" type="text/css"?>
+
+<overlay id="mindmapviewerOverlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+         
+<!-- Load the behavior layer of this extension which is defined in Javascript -->
+<script type="application/x-javascript" src="mindmapviewer.js"/>
+
+ <popup id="contentAreaContextMenu">
+                <menuseparator id="mindmapviewer-separator"/>
+                
+                <menuitem id="mindmapviewer-action-item" 
+                          image="chrome://mindmapviewer/skin/magnify_glass.png"
+                          class="menuitem-iconic"
+                          label="View MindMap" 
+                          oncommand="viewMap();"/>
+                          
+        </popup>
+
+</overlay>

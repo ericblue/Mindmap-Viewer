@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+
+<project name="mindmapviewer" default="createxpi">
+
+	<target name="createxpi" depends="createjar">
+		<zip destfile="mindmapviewer.xpi">
+ 			<zipfileset dir="." includes="chrome/mindmapviewer.jar" />
+ 			<zipfileset dir="." includes="install.rdf" />
+ 		</zip>
+
+ 	</target>
+
+	<target name="createjar">
+ 		<zip destfile="chrome/mindmapviewer.jar">
+ 			<zipfileset dir="chrome/mindmapviewer" includes="content/**" />
+ 			<zipfileset dir="chrome/mindmapviewer" includes="skin/**" />
+ 		</zip>
+ 	</target>
+
+ 
+</project>

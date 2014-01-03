@@ -1,0 +1,107 @@
+
+        <div id="main">
+
+          <h3>SHARE YOUR MAPS</h3>
+
+          <p>
+          Luckily, sharing your maps is pretty simple! The MindMap Viewer application (http://eric-blue.com/projects/mindmapviewer/display.cgi) 
+          only needs 2 parameters in the URL:
+          <ol>
+            <li><b>mmap_url</b> = The publicly accessible URL of your mindmap (e.g. http://sample.org/mymap.mmap)</li>
+            <li><b>format</b> = The format of the map viwer: [flash &nbsp;|&nbsp; java]</li> 
+          </ol>
+          </P>
+
+          <h3>INPUT</h3>
+          <p>
+          The MindMap Viewer URL can be called directly from an embeded iframe in your site, wiki, or blog.
+          Or, you can use the simple form and all you need to do is copy and paste a couple lines of code.
+
+          <form name="defaultform">
+            <table>
+              <tr>
+                <td>Mindmap URL:</td>
+
+                <td><input type="text" size="40" name=
+                "mmap_url" /></td>
+              </tr>
+
+              <tr>
+                <td>Viewer Dimensions:</td>
+
+                <td>Height: <input type="text" size="3" maxlength="3" name="height" value="400"/> &nbsp;
+                Width: <input type="text" size="3" maxlength="3" name="width" value="500"/> &nbsp;</td>
+              </tr>
+
+              <tr>
+                <td>Format:</td>
+
+                <td><input type="radio" checked="true" class=
+                "other" name="format" id="format1" value="java" />
+                <label class="left">Java</label> &nbsp;
+                <input type="radio" class="other" name="format" id=
+                "format2" value="flash" /> <label class=
+                "left">Flash</label><br /></td>
+              </tr>
+
+
+              <tr>
+                <td>&nbsp;</td>
+                <td><input value="Generate Code" type="button" onClick="JavaScript:
+
+       var dstUrl= 'http://eric-blue.com/projects/mindmapviewer/display.cgi?';
+      
+       var mmapUrl = document.forms['defaultform'].mmap_url.value;
+      
+       var encodedUrl = document.forms['defaultform'].mmap_url.value;
+       // For whatever reason, a period in this query string value causes the flash viewer not to render
+       // This will URL encode the period to %2E.  This is strange indeed... ETB
+       encodedUrl = encodedUrl.replace(/.mmap/, '%2Emmap');
+       dstUrl += 'mmap_url=' + encodedUrl;
+       dstUrl += '&format=' +  getRadioOption(document.forms['defaultform'].format);
+
+       document.forms['defaultform'].url.value = dstUrl;
+
+       var description = mmapUrl + ' (MindMap Viewer)';
+       document.forms['defaultform'].link.value = generateLink(dstUrl, description);
+
+
+       var height = document.forms['defaultform'].height.value;
+       var width = document.forms['defaultform'].width.value;
+       document.forms['defaultform'].iframe.value = generateIFrame(dstUrl,height,width);
+
+" /></td>
+
+                <td>&nbsp;</td>
+              </tr>
+            </table>
+
+          <h3>USE THIS CODE</h3>
+
+            <table>
+             <tr>
+               <td>Simple Url:</td>
+               <td><input type="text" onClick="selectAll(this);" name="url" size="45"/></td>
+             </tr>
+
+             <tr>
+               <td>Direct Link (HREF):</td>
+               <td><input type="text" onClick="selectAll(this);" name="link" size="45"/></td>
+             </tr>
+
+             <tr>
+               <td>Embedded (IFRAME):</td>
+               <td><input type="text" onClick="selectAll(this);" name="iframe" size="45"/></td>
+             </tr>
+
+            </table>
+          </form>
+          <p style="margin-top:400px">&nbsp;</p>
+
+        </div><!-- content-wrap ends here -->
+      </div>
+
+      <div style="padding:20px">
+        &nbsp;
+      </div><!-- footer starts here -->
+

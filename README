@@ -1,0 +1,12 @@
+Original project URL: http://eric-blue.com/projects/mindmapviewer/ (2007)
+
+This application/service will allow users to take a variety of mind map formats, and display the maps inside a browser using a Java 
+applet or Flash viewer. This means that maps can now be embedded directly into personal sites, wikis, or blogs using simple 
+Javascript and iframes, and no need for your audience to have your specific mind mapping software in order to view your map!
+
+The application essentially does the following:
+
+* Downloads the mindmap at the provided URL (previously converted maps will be cached)
+* Extract/convert the .mmap file to XML
+* Translate to the FreeMind .mm format using XSL
+* Embed or launch using the FreeMind Java Applet or Flash Viewer

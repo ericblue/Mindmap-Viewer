@@ -1,0 +1,308 @@
+/********************************************
+AUTHOR:  			Erwin Aligam 
+WEBSITE:   		http://www.styleshout.com/
+TEMPLATE NAME: 	PixelGreen
+TEMPLATE CODE: 	S-0010
+VERSION:          1.2   
+LAST MODIFIED:    June-05-2007   	
+TEMPLATE TUNING: doTemplate - The online template generator ( www.dotemplate.com ).
+
+*******************************************/ 
+ 
+/********************************************
+   HTML ELEMENTS
+********************************************/ 
+
+/* top elements */
+* { padding: 0; margin: 0; }
+
+body {
+	margin: 0; 	padding: 0;
+	font-family : 'Trebuchet MS', Tahoma, sans-serif;
+	font-size: 8pt;
+	color: #555555 ;
+	background-color: #000000 ;
+	text-align:center;
+}
+
+/* links */
+a { background: inherit; color: #94B6CE; text-decoration: none; }
+a:hover { background: inherit; color: #006699 ; text-decoration: underline; }
+
+/* headers */
+h1, h2, h3 { font: normal 1em 'Trebuchet MS', Tahoma, Sans-serif; }
+h1 { font-size: 14pt ; color: #94B6CE; }
+h2 { font-size: 12pt; color: #94B6CE; text-transform: uppercase; }
+h3 { font-size: 11pt; color: #94B6CE; }
+
+p, h1, h2, h3 {
+	margin: 10px 15px;
+}
+ul, ol {
+	margin: 10px 30px;
+	padding: 0 15px;		
+}
+
+/* images */
+img {
+	padding: 5px;
+}
+
+img.float-right {
+  margin: 5px 0px 5px 15px;  
+}
+img.float-left {
+  margin: 5px 15px 5px 0px;
+}
+
+
+
+/* start - table */
+table {
+	border-collapse: collapse;
+	margin: 10px 15px;	
+}
+th strong {
+	color: #fff;
+}
+th {
+	background: #74A846;
+	height: 29px;
+	padding-left: 11px;
+	padding-right: 11px;
+	color: #fff;
+	text-align: left;
+	border-left: 1px solid #B6D59A;
+	border-bottom: solid 2px #FFF;
+}
+tr {
+	height: 30px;
+}
+td {
+	padding-left: 11px;
+	padding-right: 11px;
+	/* border-left: 1px solid #FFE1C3; */
+	border-left: 1px solid #FFF;
+	border-bottom: solid 1px #ffffff;
+}
+td.first,th.first {
+	border-left: 0px;
+}
+tr.row-a {
+	background: #F8F8F8;
+}
+tr.row-b {
+	background: #EFEFEF;
+}
+/* end - table */
+
+
+
+/***********************
+	  LAYOUT
+************************/
+
+#wrap {
+	margin:0;padding:0;
+	background: #FFFFFF url(bg.jpg) repeat-x;
+}
+
+#header-content, #content, #footer-content {
+	width: 760px;
+}
+
+/* header */
+#header {
+	height: 100px;
+	text-align: left;	
+}
+
+#header-content {	
+	margin: 0 auto; padding: 0;
+	position: relative;
+}
+
+#header-content #logo {
+	position: absolute;	
+	margin: 0; padding: 0;			
+	/* change the values of left and top to adjust the position of the logo */
+	top: 0; left: 0px;
+}
+
+
+
+#header-content #slogan {
+	position: absolute;	
+	font-family:'Trebuchet Ms', Sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	text-transform: none;
+	color: #FFFFFF;	
+	margin: 0; padding: 0;
+	/* change the values of left and top to adjust the position of the slogan */
+	top: 55px; right: -5px;
+}
+
+/* header menu */
+#header-content ul {
+	position: absolute;
+	right: -5px; top: 15px;
+	font-family:'Trebuchet MS', sans-serif;
+	font-size:1.3em;
+	font-weight:bold;
+	color: #FFFFFF;
+	list-style: none;
+	margin: 0; padding: 0;		
+}
+#header-content li {
+	display: inline;
+}
+#header-content li a {
+	float: left;
+	display: block;
+	padding: 3px 12px;	
+	color: #FFFFFF;
+	background-color: #303030;
+	text-decoration: none;
+	border-right: 1px solid #272727;
+}
+#header-content li a:hover {
+	background: #FFFFFF;
+	color: #94B6CE;
+}
+#header-content li a#current  {
+	background: #94B6CE;
+	color: #FFFFFF;
+}
+
+/* header photo */
+.headerphoto {
+	margin: 0 auto;
+	width: 770px;
+	height: 200px;
+	padding: 15px 10px 10px 10px; 
+	background: #FFFFFF url(headerphoto.jpg) no-repeat center;
+}
+
+/* content */
+#content-wrap {
+	clear: both;
+	float: left;
+	width: 100%;
+	background-color: #FFFFFF ;	
+}
+
+#content {
+	text-align: left;	
+	padding: 0;
+	margin: 0 auto;	
+}
+
+/* sidebar */
+#sidebar {
+	float: right;
+	width: 30%;
+	margin: 0 0 10px 0; padding: 0;	
+}	
+
+.sidebox {
+	background: #EEEEEE;
+	color:#555555;
+	border: 1px solid #e4e4e4;
+	margin-bottom: 10px;
+	font-family : 'Trebuchet MS', Tahoma, sans-serif;
+	font-size: 8pt;
+	
+}
+
+/* sidebar menu */
+#sidebar ul.sidemenu {
+	list-style:none;
+	margin: 10px 0 15px 0;
+	padding: 0;
+	background: #F2F2F2;			
+}
+#sidebar ul.sidemenu li {
+	padding: 0px 10px;
+}
+#sidebar ul.sidemenu a {
+	display:block;
+	font-weight:normal;
+	color: #333;
+	height: 1.5em;	
+	padding:.3em 0 .3em 15px;
+	line-height: 1.5em;
+	border-bottom: 1px dashed #D4D4D4;
+	text-decoration:none;
+}
+#sidebar ul.sidemenu a.top{	
+	border-top: 1px dashed #D4D4D4;
+}
+#sidebar ul.sidemenu a:hover {
+	padding: .3em 0 .3em 10px;
+	border-left: 5px solid  #65944A;
+	color: #65944A;		
+}
+
+/* main */
+#main {
+	float: left;
+	width: 68%;
+	margin: 0 0 10px 0; padding: 0;	
+}
+#main h1 {
+	padding: 10px 0px 0px 5px;
+	margin: 0 10px 0 10px;
+	border-bottom: 1px solid #EEEEEE; 	
+	
+}
+
+
+#main div {
+	margin: 0; padding: 0;
+	font-family : 'Trebuchet MS', Tahoma, sans-serif;
+	font-size: 8pt;
+	border: 1px solid #e4e4e4;
+}
+
+
+/* footer */
+#footer {
+	clear: both;
+	height:70px;
+	margin:0 ;
+	padding: 0;
+	font: normal .95em/1.6em 'Trebuchet MS', Tahoma, Arial, sans-serif;
+	text-align: left;
+	background: #000000 url(footerBg.jpg) repeat-x;
+	
+}
+
+#footer-content {	
+	margin: 0 auto;
+	padding-top:15px;
+	text-align:center;
+	color:#FFFFFF;
+}
+
+#footer-content a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#footer-content a:hover {
+	text-decoration: underline;
+}
+
+#footer-content ul {
+	list-style: none;
+	margin: 0; padding: 0;
+}
+
+/* additional classes */
+.clear { clear: both; }
+
+
+
+
+
